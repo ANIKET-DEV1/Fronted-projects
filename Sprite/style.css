@@ -1,0 +1,814 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+.maincontainer{
+    min-height: 100vh;
+
+    min-width: 100vw;
+
+
+}
+.bod{
+ background-image:linear-gradient(180deg,rgb(26, 167,75),black);
+ background-position: center; 
+ background-size: cover;
+  background-repeat: no-repeat;
+
+  display: block;
+  
+}
+nav{
+    position: fixed;
+    top: 1.2em;
+    background-color: transparent;
+    padding-left: 2em;
+    height:9vh;
+    width: 100vw;
+    display:flex;
+    justify-content: space-between;
+    .logoc{
+        height: 9vh;
+        }    
+        .title{
+        display: flex;
+        width: 40%;
+        justify-content: space-evenly;
+        font-size: 2em;
+        font-family:serif;
+        align-self: center;
+    
+    }        
+    svg{
+        height: 9vh;
+        width: 3em;
+        margin-right: 3em;
+    }
+}
+.container{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+  
+p{  width: 40%;
+    font-family: "Barlow Condensed", serif;
+    font-weight: 550;
+    letter-spacing: -1px;
+    font-style:normal;
+        font-size: 27em;
+       
+}
+.leaf1{
+    height: 170px;
+    width: 170px;
+    position:absolute;
+    filter: blur(3px);
+    z-index: -1;
+    top: 20em;
+    right: 12em;
+    background-image: url(leaf3.png);
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.leaf2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    filter: blur(3px);
+    z-index: -1;
+    top: 4em;
+    left: 22em;
+    background-image: url(leaf3.png);
+    transform: rotate(180deg);    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+
+.leaf3{
+    height: 230px;
+    width: 230px;
+    position:absolute;
+    z-index: 2;
+    top: 25em;
+    left: 10em;
+    background-image: url(leaf3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.leaf4{
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    z-index: 2;
+    top: 5em;
+    right:7em;
+    background-image: url(leaf3.png);
+    transform: rotate(-200deg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    animation: air 5s ease-in-out 1;
+}
+@keyframes air{
+    0%{
+        top:0em;
+    }
+    10%{
+        top:0em;
+    }
+    20%{
+        right:8em;
+    }
+    30%{
+        top:3em;
+    }
+    40%{
+        right:10em;
+    }
+    50%{
+        top:5em;
+    }
+    60%{
+        right:6em;
+    }
+    70%{
+        top:6em;
+    }
+    80%{
+        right:8em;
+    }
+    90%{
+        top:6.5em;
+    }
+    100%{
+        right:7em;
+    }
+
+
+}
+.cane{
+    background-image: url(sprite.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 79%;
+    width: 39%;
+    background-size: cover;
+    top: 6.2em;
+    left: 29.5%;
+    animation: sprite 2s ease-in 1 ;
+
+}
+@keyframes sprite {
+    0%{
+        width: 0%;
+    }
+    30%{
+        width: 19%;
+    }
+    60%{
+        width:29%;
+    }
+    100%{
+        width:39%;
+    }
+    
+}
+
+.lemon{
+    background-image: url(lemon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left:49%;
+    bottom: 1em;
+    width: 200px;
+    height: 200px;
+    animation: loem 4s linear 1;
+    
+}
+@keyframes loem {
+    0%{
+     bottom: 100%;
+    }
+    30%{
+        bottom:1em;
+    }
+    60%{
+        bottom:4em;
+        
+    }
+    80%{
+        bottom:1em;
+        
+    }
+    90%{
+        bottom:3em;
+        
+    }
+
+    100%{
+        bottom:1em;
+        
+    }
+    
+}
+
+/*~~~~~~~~~~thumbs~~~~~~~~~~~~~~~~~~ */
+.body2{
+        display: none;
+        background-image:linear-gradient(180deg,rgb(17, 65, 143),black);
+        background-position: center; 
+        background-size: cover;
+         background-repeat: no-repeat;
+         z-index: -99;
+        
+       
+}
+.container1{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+  
+.p1{  width: 40%;
+    font-family: "Barlow Condensed", serif;
+    font-weight: 550;
+    letter-spacing: -1px;
+    font-style:normal;
+        font-size: 27em;
+        background-color: transparent;
+       
+}
+.leaf1{
+    height: 170px;
+    width: 170px;
+    position:absolute;
+    filter: blur(3px);
+    z-index: -1;
+    top: 20em;
+    right: 12em;
+    background-image: url(leaf3.png);
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.leaf2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    filter: blur(3px);
+    z-index: -1;
+    top: 4em;
+    left: 22em;
+    background-image: url(leaf3.png);
+    transform: rotate(180deg);    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+
+.leaf3{
+    height: 230px;
+    width: 230px;
+    position:absolute;
+    z-index: 2;
+    top: 25em;
+    left: 10em;
+    background-image: url(leaf3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.leaf4{
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    z-index: 2;
+    top: 5em;
+    right:7em;
+    background-image: url(leaf3.png);
+    transform: rotate(-230deg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    animation: air 5s ease-in-out 1;
+}
+@keyframes air{
+    0%{
+        top:0em;
+    }
+    10%{
+        top:0em;
+    }
+    20%{
+        right:8em;
+    }
+    30%{
+        top:3em;
+    }
+    40%{
+        right:10em;
+    }
+    50%{
+        top:5em;
+    }
+    60%{
+        right:6em;
+    }
+    70%{
+        top:6em;
+    }
+    80%{
+        right:8em;
+    }
+    90%{
+        top:6.5em;
+    }
+    100%{
+        right:7em;
+    }
+
+
+}
+.cane2{
+    background-image: url(Thumpsu.png);
+    position: absolute;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    height: 79%;
+    width: 42%;
+    background-size: contain;
+    top: 6.2em;
+    left: 31.5%;   
+
+}
+.Icecube{
+    background-image: url(ice\ cube.png);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left:49%;
+    bottom: 1em;
+    width: 200px;
+    height: 200px;
+    animation: loem 4s linear 1;
+    
+}
+/*`````````````````````` fanta ``````````````````````````*/
+
+.body3{
+    
+    background-image:linear-gradient(180deg,rgb(250, 146, 0),black);
+    background-position: center; 
+    background-size: cover;
+     background-repeat: no-repeat;
+     z-index: -99;
+     display: none;
+    overflow: hidden;
+    animation: none;
+
+   
+
+.container1{
+
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.p2{  width: 40%;
+font-family: "Barlow Condensed", serif;
+font-weight: 550;
+letter-spacing: -1px;
+font-style:normal;
+    font-size: 27em;
+    background-color: transparent;
+   z-index: 99;
+}
+.leaf1{
+height: 170px;
+width: 170px;
+position:absolute;
+filter: blur(3px);
+z-index: -1;
+top: 20em;
+right: 12em;
+background-image: url(leaf3.png);
+transform: rotate(180deg);
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+.leaf2{
+height: 200px;
+width: 200px;
+position: absolute;
+filter: blur(3px);
+z-index: -1;
+top: 4em;
+left: 22em;
+background-image: url(leaf3.png);
+transform: rotate(180deg);    background-repeat: no-repeat;
+background-size: contain;
+
+}
+
+
+
+.leaf3{
+height: 230px;
+width: 230px;
+position:absolute;
+z-index: 2;
+top: 25em;
+left: 10em;
+background-image: url(leaf3.png);
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+.leaf4{
+height: 200px;
+width: 200px;
+position:absolute;
+z-index: 2;
+top: 5em;
+right:8em;
+background-image: url(leaf3.png);
+transform: rotate(-200deg);
+background-repeat:no-repeat;
+background-size: contain;
+animation: air 5s ease-in-out 1;
+}
+@keyframes air{
+0%{
+    top:0em;
+}
+10%{
+    top:0em;
+}
+20%{
+    right:8em;
+}
+30%{
+    top:3em;
+}
+40%{
+    right:10em;
+}
+50%{
+    top:5em;
+}
+60%{
+    right:6em;
+}
+70%{
+    top:6em;
+}
+80%{
+    right:8em;
+}
+90%{
+    top:6.5em;
+}
+100%{
+    right:7em;
+}
+
+
+}
+.product{
+    --left:-5px
+
+
+}
+.cane3{
+background:
+url(fantalable.png) var(--left) 0,
+ url(mockcane.png);
+ background-size: auto 100%;
+position: absolute;
+height: 560px;
+width: 370px;
+background-blend-mode: multiply;
+ mask-image: url(mockcane.png);
+mask-size:auto 100%;  
+top:2.8em;
+left: 31.5%; 
+/* .label{
+background:url(fantalable.png) var(--left) 0;
+height: 30em;
+position: relative;
+left: 8em;
+margin-top: 20%;
+background-size:auto 100%;
+background-repeat: repeat;
+transition: 1s;
+} */
+
+transition: 1s;
+}
+.cane3:hover{
+    --left:-1000px;
+}
+.lemon{
+background-image: url(lemon.png);
+background-repeat: no-repeat;
+background-size: contain;
+position: absolute;
+left:49%;
+bottom: 1em;
+width: 200px;
+height: 200px;
+animation: loem 4s linear 1;
+
+}
+}
+.button1{
+  background-color:white;
+  z-index: 999999;
+    height: 50px;
+    width: 50px;
+    background: url(right.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+    position: absolute;
+    top: 49%;
+    right: 2%;
+}
+.button2{
+    background-color:white;
+    z-index: 999999;
+      height: 50px;
+      width: 50px;
+      background: url(right.png);
+      transform: rotate(180deg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+      position: absolute;
+      top: 49%;
+      left: 2%;
+  }
+
+.button3{
+    background-color:white;
+    z-index: 999999;
+      height: 50px;
+      width: 50px;
+      background: url(right.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+      position: absolute;
+      top: 49%;
+      right: 2%;
+  }
+.button4{
+      background-color:white;
+      z-index: 999999;
+        height: 50px;
+        width: 50px;
+        background: url(right.png);
+        transform: rotate(180deg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: contain;
+        position: absolute;
+        top: 49%;
+        left: 2%;
+    }
+
+.button5{
+        background-color:white;
+        z-index: 999999;
+          height: 50px;
+          width: 50px;
+          background: url(right.png);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+          position: absolute;
+          top: 49%;
+          right: 2%;
+      }
+.button6{
+          background-color:white;
+          z-index: 999999;
+            height: 50px;
+            width: 50px;
+            background: url(right.png);
+            transform: rotate(180deg);
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: contain;
+            position: absolute;
+            top: 49%;
+            left: 2%;
+        }
+
+        @keyframes opa {
+            from{
+                opacity: 50%;
+            }
+            to{
+                opacity: 100%;
+            }
+            
+        }
+        @keyframes apo {
+            from{
+                opacity: 100%;
+                
+            }
+            to{
+                opacity: 50%;
+                
+            }
+            
+        }
+        
+.body4{   
+background-image:linear-gradient(180deg,red,black);
+background-position: center; 
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100vw;
+display: none;
+overflow: hidden;
+ animation: none;  
+ }
+ .box{
+    margin-top:6em ;
+height: 80vh;
+width: 100vw;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+  .box1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30em;
+    width: 20em;
+    background-color: rgb(26, 167,75);
+    border-radius: 25px;
+  }
+  .box2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    height: 30em;
+    width: 20em;
+    background-color: rgb(17, 65, 143);
+    border-radius: 25px;
+  }
+  .box3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30em;
+    width: 20em;
+    background-color: rgb(250, 146, 0);
+    border-radius: 25px;
+  }
+  .b1{
+    margin-bottom: 0.9em;
+    height: 50px;
+    width: 180px;
+    border-radius: 25px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+  }
+.c1{
+    background: url(sprite.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    aspect-ratio: 2.5/2.5;
+    position: absolute;
+    top: 8em;
+    left: 2.6em;
+    z-index: 2;
+
+
+}
+.c2{
+    background: url(Thumpsu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    aspect-ratio: 2.5/2.5;
+    position: absolute;
+    top: 8em;
+    left: 35.5%;
+    z-index: 2;
+
+    
+}
+.c3{
+    background: url(fanta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 220px;
+   height: 400px;
+    position: absolute;
+    top: 8em;
+    right: 10em;
+    z-index: 2;
+}
+.bg1{
+    background-image: url(https://s3-alpha-sig.figma.com/img/7829/66b2/310ebe8efe00c19b146013a4cbcd4419?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EcuGHjQAosWWjrK~bKgoYfBE~9kodRWBkkYFm19~iCmfR1p3lz15joleYx-Lo6kmNrYN5LFZ55V0bCzOC4Br768F7aavejDt6vROq4JGuER~mJjv8KSrTU8uCAbkwHtS~ll04jp4MflZquyBBzxfpaJrIdKKgmy3yp-pxc6wVHWx7j0YTGXOpjkr90OPBPdx-DqSCXntt8fnUyXCe7keqN3qsBPzBwPElH7P2UQ7zxvH-pE4ThE~~By0Pz2-pqjBA7YRkDeT67LyYJkyi71O-KVwg6Irc0hPjZfqejOdb9Mtz8FLt1numrHGX7GvLPAmR32GyWEZ3r7aB-fn2XDLWQ__);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 4em;
+    left: 5.5em;
+    height: 300px;
+    width: 350px;
+    z-index: 1;
+    position: absolute; 
+}
+.bg2{
+    position: absolute;
+    background-image: url(https://s3-alpha-sig.figma.com/img/2baa/1fd8/8f9965ae4943ca0350575844cdbca8d2?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q9oeu8vNTg~kqzrBsLR6pR~ikHptNMrK3GI5jTKaAunVF5Z6XD8xHKDlbx6OoAG7j4S~fL9Ks3AhMwLGpqHUTUmZc-gpNJcUIWPGy52frYFzL7Dom7m6LNKJ6nGwAUm628pc8odiq~U1lTfHIWgQpEo9ucx7N8f6CUpQTTCUgCRLOgNYADWt7yOnXs2xj3Ncfo8CCwy02sbG89QZThzcS8LJX2utMYfhvIqoWxJ6ZfysMJVW~uO5b~l~x63uzqf56MvPdBNJn3c3SZyc9yCkyJ5G6ozsTI1IQiYXpwNnzP~7cCEGhOIq6s-MW5IkUoMet6GOPXcbavBNQPBInJcMBA__);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 6.8em;
+    left: 29.5em;
+    height: 300px;
+    width: 400px;
+    z-index: 1;
+}
+.bg3{
+    position: absolute;
+    background-image: url(https://s3-alpha-sig.figma.com/img/0273/60af/4e5999230fe2ea97a8b89abdf7064d6c?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aR7iluXzGoQveVDPZiO2hJGBdEDxDlMdeFabkghsINcJM82EqWuaMPH1R5VNU0p~VavgRNoaT-Kf9v~oLe92X4k7Q5GP1ME-ZkNLh5Mz2G8rjyiagnfYo6sCgHNRuL6A66zN-ki~xrRIuOcg6ZE8McSNgjHBoNBdE3Qd-aPHLDFYSPm86Pzp~u2PHWOlRQF7UMFXZogXj4moxsbTw-fwkTwWNmw0kx4LOO8UiQkJi6PMuzRnzorgt82E2tx49yXcVkt5TZfW~8HG9fp~IcXQ~CwaFi8oNP1pz-Cpi8PX8VdNCxg1SuYUr770iY0P9pmuLxFIxbMl95RMnsqx18oC~A__);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 5.8em;
+    right: 6.6em;
+    height: 320px;
+    width: 320px;
+    position: absolute;
+}
+.cartbag{
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    background-image: url(https://s3-alpha-sig.figma.com/img/fcba/195e/2f0e86cc79b174e3f7818f95f20dc4e3?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nCTgL4Z0bH0jALLGpcCoqyhBy1UIg1zj2W7bBXIxpk0POLRy0sjRy00xcP~lx6NptaVz86cdV2SJku6fnNXWo5uQ1ZWAuzyATGLtgfOwdcUUbMcHQ2pFOFs9GVLqhwZMisLAOs60K~9U8B2~kW5EuXL~Gfo2p~77qppg8Nmm5npUDCFRsus1-lWx25Ix0vXDGWfn5XaOFpheC4WnRirI2Ydmq7D9zFeigxvPnPLjpg2BxfId2XSmrQKgoQvRgc~HUqPcISYTAMolRrfG9VGbXhpJ5Zu47BZFRf5avIXIpgEEBo0l1GSiU0chNhDD5~gaSEc4rR-wetU1HDIxf5tXgQ__);
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    border-right: 2px solid grey;
+    
+}
+.text1{
+    color: #1BB250;  
+    font-size: 18px;
+    margin-right:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.text2{
+    color: #133EB3;
+    
+    font-size: 18px;
+    margin-right:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.text3{
+    color: #FF9500;
+    font-size: 18px;
+    margin-right:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ }

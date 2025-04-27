@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.realmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    position: relative;
+    top: 80px;
+    border: 2px solid white;
+    border-radius: 35px;
+    height: 400px;
+    width: 53%;
+ padding:30px;
+ display:flex;
+ flex-wrap: wrap;
+ background: transparent;
+ 
+background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+backdrop-filter: blur(15px);
+ 
+}
+
+.main1{
+ height: 310px;
+    margin-bottom: 20px;
+margin-right: px;
+margin-left: 20px;
+}
+
+.main1 h3{
+    text-align:left;
+    font-size: 30px;
+    color:white;
+    margin-bottom: 30px;
+
+}
+
+.main1 h3:hover{
+    text-decoration: underline;
+    cursor:alias;}
+
+.main1 input{
+    width: 300px;
+    color: antiquewhite;
+    font-size: small;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 45px;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.main1 input placeholder{
+    margin-left: 10px;
+    font-size: 10px;
+
+    color:white
+}
+
+.section2 input{
+    width:130px;
+    margin-right: 10px;
+}
+
+.button input{
+width: 150px;
+margin-right: 10px;
+}
+
+.button input:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: aliceblue;
+    color:black;
+}
+
+.submit{
+    margin-left: 10px;
+align-self:center;
+}
+.submit input{
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-radius: 45px;
+width: 700px;
+font-weight: bold;
+}
+
+.submit input:hover{
+    color:azure;
+    background-color: black;
+    cursor: pointer;
+}
