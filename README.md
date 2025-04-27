@@ -1,5 +1,5 @@
 <h1 align="center">Frontends Projects</h1>
-<h4 align="left">This repository contains a collection of projects showcasing my skills in HTML, CSS, and JavaScript. These projects demonstrate various frontend web development techniques, from creating static web pages to adding interactivity using JavaScript.</h4>
+<h4 align="left">This repository contains a collection of projects showcasing my skills in HTML, CSS, and JavaScript. These projects demonstrate various frontend web development techniques, from creating static web pages to adding interactivity using some JavaScript in few slected project.Uses of css to designing and focusing of layout,structure and more.</h4>
 
 - 👨‍💻 All of my frontends projects are available at in this repository
 
